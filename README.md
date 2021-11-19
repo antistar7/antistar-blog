@@ -9,10 +9,10 @@
 [Features](https://github.com/PoeticThemes/boo#-features) • [Installation](https://github.com/PoeticThemes/boo#-installation) • [Development](https://github.com/PoeticThemes/boo#-development) • [FAQ](https://github.com/PoeticThemes/boo#-faq) • [Partners](https://github.com/PoeticThemes/boo#-partners-and-supporters) • [Bug reports](https://github.com/PoeticThemes/boo/issues/new) • [Survey](https://form.jotform.co/70745196071862)
 
 
-# Boo
-A beautiful, clean, and responsive theme for Ghost.
+# 여행.. 그리고 맛집
+feat. Hermes
 
-[![Boo](https://i.imgur.com/PmCehgV.jpg)](https://github.com/PoeticThemes/boo/releases/latest)
+[![antistar](https://i.imgur.com/PmCehgV.jpg)](https://github.com/antistar7/antistar-blog/)
 <br><br>
 
 # 🚀 Installation
