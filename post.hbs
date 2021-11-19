@@ -14,9 +14,6 @@
             <a class="menu-button icon-menu" href="#"><span class="word">Menu</span></a>
         {{/if}}
     </nav>
-    <script>
-        var disqus_shortname = '´ñ±Û¸Ó½Å'
-    </script>
 </header>
 
 <main class="content" role="main">
@@ -35,8 +32,8 @@
 
         <footer class="post-footer">
 
-        {{!-- Everything inside the #author tags pulls data from the author --}}
-        {{#primary_author}}
+            {{!-- Everything inside the #author tags pulls data from the author --}}
+            {{#primary_author}}
 
             {{#if profile_image}}
             <figure class="author-image">
@@ -48,9 +45,9 @@
                 <h4><a href="{{url}}">{{name}}</a></h4>
 
                 {{#if bio}}
-                    <p>{{bio}}</p>
+                <p>{{bio}}</p>
                 {{else}}
-                    <p>Read <a href="{{url}}">more posts</a> by this author.</p>
+                <p>Read <a href="{{url}}">more posts</a> by this author.</p>
                 {{/if}}
                 <div class="author-meta">
                     {{#if location}}<span class="author-location icon-location">{{location}}</span>{{/if}}
@@ -58,16 +55,16 @@
                 </div>
             </section>
 
-        {{/primary_author}}
+            {{/primary_author}}
 
             <section class="share">
                 <h4>Share this post</h4>
                 <a class="icon-twitter" href="https://twitter.com/intent/tweet?text={{encode title}}&amp;url={{url absolute="true"}}"
-                    onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;">
+                   onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;">
                     <span class="hidden">Twitter</span>
                 </a>
                 <a class="icon-facebook" href="https://www.facebook.com/sharer/sharer.php?u={{url absolute="true"}}"
-                    onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;">
+                   onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;">
                     <span class="hidden">Facebook</span>
                 </a>
                 <a class="icon-google-plus" href="https://plus.google.com/share?url={{url absolute="true"}}"
@@ -88,6 +85,7 @@
 
         </footer>
         {{!-- Add Disqus code here --}}
+        {{> disqus}}
     </article>
 </main>
 
